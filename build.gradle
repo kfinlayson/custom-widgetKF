@@ -1,0 +1,59 @@
+buildscript {
+    dependencies {
+        classpath 'org.robotframework:swinglibrary:1.9.6'
+        classpath 'org.robotframework:javalib-core:1.2.1'
+        classpath files(mkdir('build/classes/main'))
+    }
+}
+plugins {
+  id 'org.roboscratch.robot' version '0.1.1'
+}
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Custom Widget', 
+                   'Implementation-Version': version, 
+                   'Main-Class': 'edu.jsu.mcis.Main'
+    }
+}
+
+task uberjar(type: Jar) {
+    manifest.from jar.manifest
+    classifier = 'all'
+    from {
+        configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+    with jar
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.robotframework:swinglibrary:1.9.6'
+    compile 'org.robotframework:javalib-core:1.2.1'
+    testCompile 'junit:junit:4.12'
+}
+
+gradle.projectsEvaluated {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+}
+
+jacocoTestReport {
+    group = 'Reporting'
+    description = 'Generate Jacoco coverage reports after running tests.'
+    additionalSourceDirs = files(sourceSets.main.allJava.srcDirs)
+}
+
+runrobot.debugfile = 'debug.log'
+runrobot.dependsOn build

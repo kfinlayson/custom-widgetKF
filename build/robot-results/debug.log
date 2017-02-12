@@ -1,0 +1,148 @@
+==============================================================================
+20170211 20:01:35.974 - INFO - + START SUITE: Acceptancetest [ ]
+==============================================================================
+20170211 20:01:36.765 - INFO - +- START SUITE: Acceptancetest.CustomWidgetTests [ ]
+==============================================================================
+20170211 20:01:36.772 - INFO - +-- START TEST: Hexagon Is Not Selected Initially [ ]
+------------------------------------------------------------------------------
+20170211 20:01:36.775 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170211 20:01:36.822 - INFO - +--- END KW: SwingLibrary.Start Application (47)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:36.824 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170211 20:01:36.827 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:36.835 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame8,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:36.848 - INFO - +--- END KW: SwingLibrary.Select Window (24)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:36.849 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | HEXAGON ]
+20170211 20:01:36.852 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170211 20:01:36.852 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170211 20:01:36.853 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,478x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=HEXAGON,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170211 20:01:36.872 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:36.874 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170211 20:01:36.877 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:36.877 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame8,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.108 - INFO - +--- END KW: SwingLibrary.Close Window (233)
+------------------------------------------------------------------------------
+20170211 20:01:37.111 - INFO - +-- END TEST: Hexagon Is Not Selected Initially (339)
+------------------------------------------------------------------------------
+20170211 20:01:37.113 - INFO - +-- START TEST: Octagon Is Selected After Center Click [ ]
+------------------------------------------------------------------------------
+20170211 20:01:37.117 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170211 20:01:37.157 - INFO - +--- END KW: SwingLibrary.Start Application (39)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.158 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170211 20:01:37.160 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.167 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame9,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.174 - INFO - +--- END KW: SwingLibrary.Select Window (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.175 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Octagon [ ]
+20170211 20:01:37.177 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170211 20:01:37.177 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170211 20:01:37.177 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,478x428,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@7ef7c565,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170211 20:01:37.211 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Octagon (36)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.213 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | OCTAGON ]
+20170211 20:01:37.219 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170211 20:01:37.219 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170211 20:01:37.219 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,478x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=OCTAGON,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170211 20:01:37.222 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (9)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.223 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170211 20:01:37.225 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.225 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame9,0,0,500x500,invalid,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.382 - INFO - +--- END KW: SwingLibrary.Close Window (159)
+------------------------------------------------------------------------------
+20170211 20:01:37.386 - INFO - +-- END TEST: Octagon Is Selected After Center Click (272)
+------------------------------------------------------------------------------
+20170211 20:01:37.388 - INFO - +-- START TEST: Widget Is Unchanged After Edge Click [ ]
+------------------------------------------------------------------------------
+20170211 20:01:37.391 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170211 20:01:37.429 - INFO - +--- END KW: SwingLibrary.Start Application (38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.430 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170211 20:01:37.437 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.442 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame10,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.454 - INFO - +--- END KW: SwingLibrary.Select Window (24)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.456 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Outside [ ]
+20170211 20:01:37.457 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170211 20:01:37.457 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170211 20:01:37.463 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 6 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,478x428,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@715335ef,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170211 20:01:37.508 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Outside (52)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.510 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | HEXAGON ]
+20170211 20:01:37.512 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170211 20:01:37.512 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170211 20:01:37.512 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,478x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=HEXAGON,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170211 20:01:37.521 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.523 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170211 20:01:37.527 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.527 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame10,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.685 - INFO - +--- END KW: SwingLibrary.Close Window (162)
+------------------------------------------------------------------------------
+20170211 20:01:37.688 - INFO - +-- END TEST: Widget Is Unchanged After Edge Click (299)
+------------------------------------------------------------------------------
+20170211 20:01:37.689 - INFO - +-- START TEST: Widget Toggles With Successive Center Clicks [ ]
+------------------------------------------------------------------------------
+20170211 20:01:37.691 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170211 20:01:37.724 - INFO - +--- END KW: SwingLibrary.Start Application (32)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.725 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170211 20:01:37.727 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.738 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame11,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:37.742 - INFO - +--- END KW: SwingLibrary.Select Window (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.744 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Octagon [ ]
+20170211 20:01:37.746 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170211 20:01:37.746 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170211 20:01:37.751 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 2 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,478x428,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@64f00ebf,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170211 20:01:37.771 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Octagon (27)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.773 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | OCTAGON ]
+20170211 20:01:37.775 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170211 20:01:37.775 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170211 20:01:37.776 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 1 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,478x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=OCTAGON,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170211 20:01:37.790 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.792 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Hexagon [ ]
+20170211 20:01:37.794 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170211 20:01:37.794 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170211 20:01:37.794 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,478x428,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@64f00ebf,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170211 20:01:37.824 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Hexagon (33)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.825 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | HEXAGON ]
+20170211 20:01:37.835 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170211 20:01:37.835 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170211 20:01:37.836 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 1 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,478x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=HEXAGON,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170211 20:01:37.844 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170211 20:01:37.845 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170211 20:01:37.847 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170211 20:01:37.847 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame11,0,0,500x500,invalid,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,11,45,478x444,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170211 20:01:38.006 - INFO - +--- END KW: SwingLibrary.Close Window (160)
+------------------------------------------------------------------------------
+20170211 20:01:38.009 - INFO - +-- END TEST: Widget Toggles With Successive Center Clicks (319)
+------------------------------------------------------------------------------
+20170211 20:01:38.035 - INFO - +- END SUITE: Acceptancetest.CustomWidgetTests (2040)
+==============================================================================
+20170211 20:01:38.058 - INFO - + END SUITE: Acceptancetest (2421)
+==============================================================================

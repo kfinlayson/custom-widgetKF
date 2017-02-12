@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.jsu.mcis.CustomWidgetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-02-12T02:01:35" hostname="Katie-pc" time="0.176">
+  <properties/>
+  <testcase name="testClickingCenterOfWidgetSelectsIt" classname="edu.jsu.mcis.CustomWidgetTest" time="0.176"/>
+  <testcase name="testWidgetIsInitiallyDeselected" classname="edu.jsu.mcis.CustomWidgetTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
